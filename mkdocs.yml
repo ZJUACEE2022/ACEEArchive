@@ -4,7 +4,7 @@ nav:
   - 主页:
     - Welcome: index.md
     - Getting Started: start.md
-  - 关于: about.md
+    - About: about.md
   - 通识 - 自然科学类: natural_science.md
   - 通识 - 计算机类: computer_science.md
   - 通识 - 思政和选修类: optional_course.md
@@ -13,6 +13,7 @@ nav:
   - 学科门类 C: course_C.md
   - 学科门类 D: course_D.md
   - 学科门类 E: course_E.md
+  - 工高相关: acee.md
 
 theme:
   name: material
@@ -46,3 +47,8 @@ extra_css:
 repo_url: https://github.com/ZJUACEE2022/ACEEArchive
 repo_name: ZJUACEE2022/ACEEArchive
 edit_uri: edit/main/docs/
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
