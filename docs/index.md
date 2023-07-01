@@ -1,12 +1,10 @@
 # Welcome to ACEE Archive
 
-本网页用于在 ACEERs 间进行学习资源的分享，我们欢迎每一位 ACEERs 为这个资源库增添思维的火花。
+本网页用于在 ACEERs 间进行学习资源的分享，我们欢迎每一位心怀梦想的青年为这个资源库增添思维的火花。
 
-原神关闭！
+> 请注意，目前本站只对 ACEERs 开放。由于 ACEEA 没有设计访问限制，**请不要向其它人外传本网址。**
 
-在线修改测试 1
-
-元神启动！
+有关如何使用本网站，参见 [Getting Started](./start.md)。
 
 ## 自定义你的 ACEEA
 
@@ -34,17 +32,14 @@
     <button data-md-color-primary=brown><code>brown</code></button> 
     <button data-md-color-primary=grey><code>grey</code></button> 
     <button data-md-color-primary=blue-grey><code>blue grey</code></button> 
-    <button data-md-color-primary=black><code>black</code></button> 
-    <button data-md-color-primary=white><code>white</code></button> 
+    <button data-md-color-primary=black><code>black</code></button>
 </div>
 <script>
-  var buttons = document.querySelectorAll("button[data-md-color-primary]")
-  buttons.forEach(function(button) {
+  var buttons = document.querySelectorAll("button[data-md-color-primary]");
+  Array.prototype.forEach.call(buttons, function(button) {
     button.addEventListener("click", function() {
-      var attr = this.getAttribute("data-md-color-primary")
-      document.body.setAttribute("data-md-color-primary", attr)
-      var name = document.querySelector("#__code_1 code span.l")
-      name.textContent = attr.replace("-", " ")
+      document.body.dataset.mdColorPrimary = this.dataset.mdColorPrimary;
+      localStorage.setItem("data-md-color-primary",this.dataset.mdColorPrimary);
     })
   })
 </script>

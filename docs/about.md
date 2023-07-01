@@ -2,9 +2,6 @@
 comments: true
 ---
 
+> Developed by ALL ACEERs
 
-Genshin Impact, Launch!
-
-原神，启动！
-
-为什么没有启动？！
+> 2023/7/2
