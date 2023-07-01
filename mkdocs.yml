@@ -42,3 +42,7 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+
+repo_url: https://github.com/ZJUACEE2022/ACEEArchive
+repo_name: ZJUACEE2022/ACEEArchive
+edit_uri: edit/main/docs/
