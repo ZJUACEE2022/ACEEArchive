@@ -1,0 +1,44 @@
+site_name: ACEE Archive
+
+nav:
+  - 主页:
+    - Welcome: index.md
+    - Getting Started: start.md
+  - 关于: about.md
+  - 通识 - 自然科学类: natural_science.md
+  - 通识 - 计算机类: computer_science.md
+  - 通识 - 思政和选修类: optional_course.md
+  - 学科门类 A: course_A.md
+  - 学科门类 B: course_B.md
+  - 学科门类 C: course_C.md
+  - 学科门类 D: course_D.md
+  - 学科门类 E: course_E.md
+
+theme:
+  name: material
+  logo: 'images/logo.svg'
+  custom_dir: overrides
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.path
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/git-alt 
+    edit: material/pencil 
+    view: material/eye
+
+
+extra_css:
+  - stylesheets/extra.css
