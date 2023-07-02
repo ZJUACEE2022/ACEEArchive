@@ -44,9 +44,7 @@ comments: true
 
 如果你希望快点完成申请，可以线上戳管理员或者线下暴打他。
 
-[link](/resources/assignment.pdf)
-
-!!! 提示
+!!! note "提示"
 
     +   如果希望在你修改的内容中添加图片，你将只能使用后一种操作方法。
     
@@ -60,4 +58,8 @@ comments: true
 
         如果你无法执行后一种操作方法，但仍希望添加文件资源，可以直接将【文件资源】和【它应该所在的位置】发送给管理员，由我们进行后续人工维护。
 
-    + 鉴于 Github Repo 的空间限制为 500M，我们不建议您添加任何超过 1M 的文件或图片。
+    + 鉴于 Github Repo 的空间限制为 500M，我们不建议您添加任何超过 2M 的文件或图片。
+    
+!!! warning "提示"
+
+    如果您希望添加一些不便公开的资源**（这个仓库本质上是对全网可见的）**，请移步 [ACEE Private Repo](https://github.com/ACEE-s/private-repository-of-ACEE)。
