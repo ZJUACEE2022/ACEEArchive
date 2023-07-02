@@ -158,3 +158,16 @@ button[data-md-color-accent], button[data-md-color-primary], button[data-md-colo
     font-size: .7rem;
     line-height: 1.6;
 }
+
+.md-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    color: var(--md-primary-bg-color);
+    background-color: var(--md-primary-fg-color);
+    box-shadow: 0 0 0.2rem rgba(0,0,0,0), 0 0.2rem 0.4rem rgba(0,0,0,0);
+    transition: color 250ms,background-color 250ms;
+}

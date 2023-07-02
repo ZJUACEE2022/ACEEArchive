@@ -19,6 +19,14 @@ theme:
   name: material
   logo: 'images/logo.svg'
   custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.path
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/git-alt 
+    edit: material/pencil 
+    view: material/eye
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -31,18 +39,13 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  features:
-    - navigation.tabs
-    - navigation.path
-    - content.action.edit
-  icon:
-    repo: fontawesome/brands/git-alt 
-    edit: material/pencil 
-    view: material/eye
 
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
 
 repo_url: https://github.com/ZJUACEE2022/ACEEArchive
 repo_name: ZJUACEE2022/ACEEArchive

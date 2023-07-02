@@ -8,7 +8,7 @@
 
 ## 自定义你的 ACEEA
 
-单击右上角的按钮可以切换亮色或暗色模式。
+单击搜素框旁的按钮切换亮色或暗色。
 
 单击以下按钮设置你所喜欢的网页主题色。
 
@@ -34,6 +34,7 @@
     <button data-md-color-primary=blue-grey><code>blue grey</code></button> 
     <button data-md-color-primary=black><code>black</code></button>
 </div>
+
 <script>
   var buttons = document.querySelectorAll("button[data-md-color-primary]");
   Array.prototype.forEach.call(buttons, function(button) {
