@@ -1,0 +1,173 @@
+[data-md-color-primary=red] {
+--md-primary-fg-color:#ef5552;
+--md-primary-fg-color--light:#e57171;
+--md-primary-fg-color--dark:#e53734;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=pink] {
+--md-primary-fg-color:#e92063;
+--md-primary-fg-color--light:#ec417a;
+--md-primary-fg-color--dark:#c3185d;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=purple] {
+--md-primary-fg-color:#ab47bd;
+--md-primary-fg-color--light:#bb69c9;
+--md-primary-fg-color--dark:#8c24a8;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=deep-purple] {
+--md-primary-fg-color:#7e56c2;
+--md-primary-fg-color--light:#9574cd;
+--md-primary-fg-color--dark:#673ab6;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=indigo] {
+--md-primary-fg-color:#4051b5;
+--md-primary-fg-color--light:#5d6cc0;
+--md-primary-fg-color--dark:#303fa1;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=blue] {
+--md-primary-fg-color:#2094f3;
+--md-primary-fg-color--light:#42a5f5;
+--md-primary-fg-color--dark:#1975d2;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=light-blue] {
+--md-primary-fg-color:#02a6f2;
+--md-primary-fg-color--light:#28b5f6;
+--md-primary-fg-color--dark:#0287cf;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=cyan] {
+--md-primary-fg-color:#00bdd6;
+--md-primary-fg-color--light:#25c5da;
+--md-primary-fg-color--dark:#0097a8;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=teal] {
+--md-primary-fg-color:#009485;
+--md-primary-fg-color--light:#26a699;
+--md-primary-fg-color--dark:#007a6c;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=green] {
+--md-primary-fg-color:#4cae4f;
+--md-primary-fg-color--light:#68bb6c;
+--md-primary-fg-color--dark:#398e3d;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=light-green] {
+--md-primary-fg-color:#8bc34b;
+--md-primary-fg-color--light:#9ccc66;
+--md-primary-fg-color--dark:#689f38;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=lime] {
+--md-primary-fg-color:#cbdc38;
+--md-primary-fg-color--light:#d3e156;
+--md-primary-fg-color--dark:#b0b52c;
+--md-primary-bg-color:#000000de;
+--md-primary-bg-color--light:#0000008a
+}
+[data-md-color-primary=yellow] {
+--md-primary-fg-color:#ffec3d;
+--md-primary-fg-color--light:#ffee57;
+--md-primary-fg-color--dark:#fbc02d;
+--md-primary-bg-color:#000000de;
+--md-primary-bg-color--light:#0000008a
+}
+[data-md-color-primary=amber] {
+--md-primary-fg-color:#ffc105;
+--md-primary-fg-color--light:#ffc929;
+--md-primary-fg-color--dark:#ffa200;
+--md-primary-bg-color:#000000de;
+--md-primary-bg-color--light:#0000008a
+}
+[data-md-color-primary=orange] {
+--md-primary-fg-color:#ffa724;
+--md-primary-fg-color--light:#ffa724;
+--md-primary-fg-color--dark:#fa8900;
+--md-primary-bg-color:#000000de;
+--md-primary-bg-color--light:#0000008a
+}
+[data-md-color-primary=deep-orange] {
+--md-primary-fg-color:#ff6e42;
+--md-primary-fg-color--light:#ff8a66;
+--md-primary-fg-color--dark:#f4511f;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=brown] {
+--md-primary-fg-color:#795649;
+--md-primary-fg-color--light:#8d6e62;
+--md-primary-fg-color--dark:#5d4037;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3
+}
+[data-md-color-primary=grey] {
+--md-primary-fg-color:#757575;
+--md-primary-fg-color--light:#9e9e9e;
+--md-primary-fg-color--dark:#616161;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3;
+--md-typeset-a-color:#4051b5
+}
+[data-md-color-primary=blue-grey] {
+--md-primary-fg-color:#546d78;
+--md-primary-fg-color--light:#607c8a;
+--md-primary-fg-color--dark:#455a63;
+--md-primary-bg-color:#fff;
+--md-primary-bg-color--light:#ffffffb3;
+--md-typeset-a-color:#4051b5
+}
+
+button[data-md-color-primary] {
+    background-color: var(--md-primary-fg-color);
+}
+
+button[data-md-color-primary]:hover {
+    opacity: 75%;
+}
+
+button[data-md-color-accent], button[data-md-color-primary], button[data-md-color-scheme] {
+    width: 8.4rem;
+    margin-bottom: .4rem;
+    padding: 2.4rem .4rem .4rem;
+    transition: background-color .25s,opacity .25s;
+    border-radius: .2rem;
+    color: #fff;
+    font-size: .8rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.md-typeset {
+    font-size: .7rem;
+    line-height: 1.6;
+}
+
+.md-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    color: var(--md-primary-bg-color);
+    background-color: var(--md-primary-fg-color);
+    box-shadow: 0 0 0.2rem rgba(0,0,0,0), 0 0.2rem 0.4rem rgba(0,0,0,0);
+    transition: color 250ms,background-color 250ms;
+}
